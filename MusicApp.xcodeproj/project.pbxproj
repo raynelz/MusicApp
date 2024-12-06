@@ -3,33 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC8E8162D034E4100DD7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC8E80B2D034E4100DD7A8A /* Assets.xcassets */; };
+		ECC8E8182D034E4100DD7A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC8E80E2D034E4100DD7A8A /* LaunchScreen.storyboard */; };
+		ECC8E8192D034E4100DD7A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E80A2D034E4100DD7A8A /* AppDelegate.swift */; };
+		ECC8E81A2D034E4100DD7A8A /* OnboardingCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E80F2D034E4100DD7A8A /* OnboardingCellModel.swift */; };
+		ECC8E81B2D034E4100DD7A8A /* OnboardingMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8102D034E4100DD7A8A /* OnboardingMockData.swift */; };
+		ECC8E81C2D034E4100DD7A8A /* OnboardingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8112D034E4100DD7A8A /* OnboardingViewCell.swift */; };
+		ECC8E81D2D034E4100DD7A8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8122D034E4100DD7A8A /* SceneDelegate.swift */; };
+		ECC8E81E2D034E4100DD7A8A /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8132D034E4100DD7A8A /* UIView+AddSubviews.swift */; };
+		ECC8E81F2D034E4100DD7A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC8E8142D034E4100DD7A8A /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC08609C2CFA11D4000FAB59 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC8E80A2D034E4100DD7A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC8E80B2D034E4100DD7A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC8E80C2D034E4100DD7A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC8E80D2D034E4100DD7A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC8E80F2D034E4100DD7A8A /* OnboardingCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCellModel.swift; sourceTree = "<group>"; };
+		ECC8E8102D034E4100DD7A8A /* OnboardingMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMockData.swift; sourceTree = "<group>"; };
+		ECC8E8112D034E4100DD7A8A /* OnboardingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewCell.swift; sourceTree = "<group>"; };
+		ECC8E8122D034E4100DD7A8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECC8E8132D034E4100DD7A8A /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		ECC8E8142D034E4100DD7A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EC0860AE2CFA11D6000FAB59 /* Exceptions for "MusicApp" folder in "MusicApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EC08609B2CFA11D4000FAB59 /* MusicApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EC08609E2CFA11D5000FAB59 /* MusicApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EC0860AE2CFA11D6000FAB59 /* Exceptions for "MusicApp" folder in "MusicApp" target */,
-			);
-			path = MusicApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EC0860992CFA11D4000FAB59 /* Frameworks */ = {
@@ -45,7 +46,7 @@
 		EC0860932CFA11D4000FAB59 = {
 			isa = PBXGroup;
 			children = (
-				EC08609E2CFA11D5000FAB59 /* MusicApp */,
+				ECC8E8152D034E4100DD7A8A /* MusicApp */,
 				EC08609D2CFA11D4000FAB59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +57,23 @@
 				EC08609C2CFA11D4000FAB59 /* MusicApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC8E8152D034E4100DD7A8A /* MusicApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECC8E80A2D034E4100DD7A8A /* AppDelegate.swift */,
+				ECC8E80B2D034E4100DD7A8A /* Assets.xcassets */,
+				ECC8E80C2D034E4100DD7A8A /* Info.plist */,
+				ECC8E80E2D034E4100DD7A8A /* LaunchScreen.storyboard */,
+				ECC8E80F2D034E4100DD7A8A /* OnboardingCellModel.swift */,
+				ECC8E8102D034E4100DD7A8A /* OnboardingMockData.swift */,
+				ECC8E8112D034E4100DD7A8A /* OnboardingViewCell.swift */,
+				ECC8E8122D034E4100DD7A8A /* SceneDelegate.swift */,
+				ECC8E8132D034E4100DD7A8A /* UIView+AddSubviews.swift */,
+				ECC8E8142D034E4100DD7A8A /* ViewController.swift */,
+			);
+			path = MusicApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +90,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EC08609E2CFA11D5000FAB59 /* MusicApp */,
 			);
 			name = MusicApp;
 			packageProductDependencies = (
@@ -99,6 +114,7 @@
 				};
 			};
 			buildConfigurationList = EC0860972CFA11D4000FAB59 /* Build configuration list for PBXProject "MusicApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +123,6 @@
 			);
 			mainGroup = EC0860932CFA11D4000FAB59;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = EC08609D2CFA11D4000FAB59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC8E8162D034E4100DD7A8A /* Assets.xcassets in Resources */,
+				ECC8E8182D034E4100DD7A8A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +149,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC8E8192D034E4100DD7A8A /* AppDelegate.swift in Sources */,
+				ECC8E81A2D034E4100DD7A8A /* OnboardingCellModel.swift in Sources */,
+				ECC8E81B2D034E4100DD7A8A /* OnboardingMockData.swift in Sources */,
+				ECC8E81C2D034E4100DD7A8A /* OnboardingViewCell.swift in Sources */,
+				ECC8E81D2D034E4100DD7A8A /* SceneDelegate.swift in Sources */,
+				ECC8E81E2D034E4100DD7A8A /* UIView+AddSubviews.swift in Sources */,
+				ECC8E81F2D034E4100DD7A8A /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECC8E80E2D034E4100DD7A8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC8E80D2D034E4100DD7A8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EC0860B02CFA11D6000FAB59 /* Debug */ = {
